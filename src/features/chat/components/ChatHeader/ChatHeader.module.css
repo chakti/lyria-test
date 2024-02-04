@@ -1,0 +1,32 @@
+.chatHeader {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F2F2F2;
+}
+
+.imageWrapper {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.nameWrapper {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 700;
+  margin-right: 16px;
+}
+
+.priceWrapper {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}

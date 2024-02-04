@@ -1,0 +1,7 @@
+.header {
+  width: 100%;
+  padding: 16px 8px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}

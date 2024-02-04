@@ -1,0 +1,62 @@
+.chatMessages {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+  max-height: calc(100vh - 386px);
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.message {
+  display: flex;
+  flex-flow: column;
+}
+
+.message.inbox {
+  align-self: flex-start;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.inbox .user {
+  flex-direction: row-reverse;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.avatar img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 700;
+  margin: 0 8px;
+}
+
+.messageText {
+  margin-top: 4px;
+  padding: 16px;
+  border: 1px solid #F2F2F2;
+  box-shadow: 0px 16px 40px -7px #0000000D;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+  border-radius: 16px;
+  width: fit-content;
+}
+
+.inbox .messageText {
+  color: white;
+  background-color: #D2375D;
+}
